@@ -8,9 +8,9 @@
 
 //type error
 // let age = 25
-// console.log(age.toUpperCase())
+// console.log(age.toUpperCase());
 
-// try&catch
+// try&catch (for error handling)
 // try{
 //     let result = 10 / 0;
 //     console.log(result);
@@ -32,7 +32,7 @@ function loadUserData(userId){
     }catch(error){
         console.log("failed: " + error.message);
     }finally{
-        console.log("Loading complete. Closing connection.")
+        console.log("Loading complete. Closing connection.");
     }
 }
 
