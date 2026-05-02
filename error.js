@@ -1,25 +1,25 @@
 //syntax error
-// let add = (5+3;
-// console.log(add);
+let add = (5+3);
+console.log(add);
 
 //reference error
-// let myame = "Amina";
-// console.log(myName);
+let myame = "Amina";
+console.log(myName);
 
 //type error
-// let age = 25
-// console.log(age.toUpperCase());
+let age = 25
+console.log(age.toUpperCase());
 
 // try&catch (for error handling)
-// try{
-//     let result = 10 / 0;
-//     console.log(result);
-//     undefinedFunction();
-//     console.log("This line will NOT run.");
-// }catch(error){
-//     console.log("An error occurred: " + error.name, error.message, error.stack);
-// }
-// console.log("The program continues here.");
+try{
+    let result = 10 / 0;
+    console.log(result);
+    undefinedFunction();
+    console.log("This line will NOT run.");
+}catch(error){
+    console.log("An error occurred: " + error.name, error.message, error.stack);
+}
+console.log("The program continues here.");
 
 
 function loadUserData(userId){
